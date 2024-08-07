@@ -1,0 +1,107 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+html{
+	overflow: hidden;
+}
+
+#minimap {
+	position: absolute;
+	bottom: 0.9vh;
+	left: 0.7vw;
+	background-color: rgba(30, 30, 30, 0.1);
+	height: 17.3vh;
+	width: 14.0vw;
+	overflow: visible;
+	justify-content: space-between;
+	overflow: visible;
+	border: 7px solid #232323;
+}
+
+#shield-back {
+	position: absolute;
+	bottom: 17.0vh;
+	left: -0.55vw;
+	background-color: rgba(45, 45, 45, 1);
+	height: 1.65vh;
+	width: 14.25vw;
+	overflow: visible;
+	justify-content: space-between;
+	overflow: visible;
+	border: 5px solid #232323;
+	transform: skewX(10deg);
+	box-shadow: 0px 0px 15px 0px #000000 inset;
+}
+
+#hp-back {
+	position: absolute;
+	bottom: 19.3vh;
+	left: -0.75vw;
+	background-color: rgba(45, 45, 45, 1);
+	height: 1.65vh;
+	width: 10.25vw;
+	overflow: visible;
+	justify-content: space-between;
+	overflow: visible;
+	border: 5px solid #232323;
+	transform: skewX(10deg);
+	box-shadow: 0px 0px 15px 0px #000000 inset;
+}
+
+#stamina-back {
+	position: absolute;
+	bottom: -0.5vh;
+	left: -0.41vw;
+	background-color: rgba(45, 45, 45, 1);
+	height: 1.65vh;
+	width: 14.25vw;
+	overflow: visible;
+	justify-content: space-between;
+	overflow: visible;
+	border: 5px solid #232323;
+	box-shadow: 0px 0px 15px 0px #000000 inset;
+}
+
+#oxygen-back {
+	position: absolute;
+	bottom: -0.5vh;
+	left: 14.31vw;
+	background-color: rgba(45, 45, 45, 1);
+	height: 1.65vh;
+	width: 14.25vw;
+	overflow: visible;
+	justify-content: space-between;
+	overflow: visible;
+	border: 5px solid #232323;
+	box-shadow: 0px 0px 15px 0px #000000 inset;
+}
+
+.status-bar {
+	position: absolute;
+	bottom: 0.0vh;
+	left: 0.0vw;
+	background-color: rgba(45, 45, 45, 1);
+	height: 1.55vh;
+	width: 13.2vw;
+	transition: 0.3s;
+  	transform: translateY(110%);
+	transform: skewX(5deg);
+	z-index: 9;
+	box-shadow: 0px 0px 5px 0px #000000 inset;
+}
+
+#health{
+	background-color: #ff0000;
+}
+
+#armor {
+	background-color: #6a6a6a;
+}
+
+#stamina{
+	background-color: #b3ff00; 
+}
+
+#oxygen{
+	background-color: #00e7ef; 
+}
